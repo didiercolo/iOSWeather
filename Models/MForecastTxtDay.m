@@ -12,15 +12,12 @@
 
 @implementation MForecastTxtDay
 
-@synthesize forecastday = _forecastday;
+@synthesize textDescription=_textDescription;
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
-             @"forecastday":@"forecastday",
+             @"textDescription":@"fcttext",
              };
 }
-//
-//+ (NSValueTransformer *)forecastdayJSONTransformer {
-//    return [NSValueTransformer mtl_JSONArrayTransformerWithModelClass:[MForecastDayDetails  class]];
-//}
+
 @end

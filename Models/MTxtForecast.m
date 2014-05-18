@@ -7,15 +7,21 @@
 //
 
 #import "MTxtForecast.h"
-
+#import "MForecastTxtDay.h"
+#import "NSValueTransformer+MTLPredefinedTransformerAdditions.h"
+#import "NSValueTransformer+MTLInversionAdditions.h"
 @implementation MTxtForecast
 
-@synthesize txtForecastDetails =_txtForecastDetails;
+@synthesize txtForecastDay =_txtForecastDay;
 
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
-             @"txtForecastDetails":@"forecastday",
+             @"txtForecastDay":@"forecastday",
              };
+}
+
++ (NSValueTransformer *)txtForecastDayJSONTransformer {
+    return [NSValueTransformer  mtl_JSONArrayTransformerWithModelClass:[MForecastTxtDay class]];
 }
 @end

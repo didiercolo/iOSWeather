@@ -12,6 +12,6 @@
 
 @interface MForecastTxtDay : MTLModel<MTLJSONSerializing>
 
-@property (strong,nonatomic) NSArray * forecastday;
+@property (copy,nonatomic) NSString * textDescription;
 
 @end

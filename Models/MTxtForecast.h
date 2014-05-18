@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "MTLJSONAdapter.h"
 #import <MTLModel.h>
-#import "MForecastTxtDay.h"
+
 
 @interface MTxtForecast: MTLModel<MTLJSONSerializing>
 
-@property (strong,nonatomic) MForecastTxtDay * txtForecastDetails;
+@property (strong,nonatomic) NSArray * txtForecastDay;
+
 @end
