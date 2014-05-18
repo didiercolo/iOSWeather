@@ -13,17 +13,22 @@
 @implementation Forecast
 
 @synthesize simpleForecast = _simpleForecast;
+@synthesize txtForecast = _txtForecast;
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
              @"simpleForecast":@"simpleforecast",
+             @"txtForecast":@"txt_forecast",
              
              };
 }
 
 + (NSValueTransformer *)simpleForecastJSONTransformer {
-    NSLog(@"f``");
     return [NSValueTransformer mtl_JSONDictionaryTransformerWithModelClass:[MSimpleForecast class]];
+}
+
++ (NSValueTransformer *)txtForecastJSONTransformer {
+    return [NSValueTransformer mtl_JSONDictionaryTransformerWithModelClass:[MTxtForecast class]];
 }
 
 @end

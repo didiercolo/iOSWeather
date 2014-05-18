@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/Forecast.m"
-            timestampString = "421556500.860595"
+            timestampString = "422076423.16881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "+JSONKeyPathsByPropertyKey"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/MWeather.m"
-            timestampString = "421737199.424444"
+            timestampString = "422077824.317892"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/MWeather.m"
-            timestampString = "421737199.424444"
+            timestampString = "422076423.16881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/MWeather.m"
-            timestampString = "421913049.699759"
+            timestampString = "422077824.317892"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -422,8 +422,8 @@
                   continueAfterRunningActions = "No"
                   symbolName = "-[MWeatherForecast lists]"
                   moduleName = "WeatheriOS"
-                  urlString = "file:///Users/didiercorrales/Dropbox/SQA%20Projects/iOS-Projects/WeatheriOS/ModelWeather/MWeatherForecast.h"
-                  timestampString = "422062405.327327"
+                  urlString = "file:///Users/didiercorrales/Dropbox/SQA%20Projects/iOS-Projects/WeatheriOS-Github/ModelWeather/MWeatherForecast.h"
+                  timestampString = "422077824.599409"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "21"
@@ -436,8 +436,8 @@
                   continueAfterRunningActions = "No"
                   symbolName = "-[MWeatherForecast setLists:]"
                   moduleName = "WeatheriOS"
-                  urlString = "file:///Users/didiercorrales/Dropbox/SQA%20Projects/iOS-Projects/WeatheriOS/ModelWeather/MWeatherForecast.h"
-                  timestampString = "422062405.327682"
+                  urlString = "file:///Users/didiercorrales/Dropbox/SQA%20Projects/iOS-Projects/WeatheriOS-Github/ModelWeather/MWeatherForecast.h"
+                  timestampString = "422077824.599557"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "21"
@@ -454,7 +454,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/MWeather.m"
-            timestampString = "421737160.593093"
+            timestampString = "422077824.317892"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -470,11 +470,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/Forecast.m"
-            timestampString = "421737413.33785"
+            timestampString = "422076423.16881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "+JSONKeyPathsByPropertyKey"
             landmarkType = "5">
          </BreakpointContent>
@@ -486,11 +486,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Models/Forecast.m"
-            timestampString = "421738012.604983"
+            timestampString = "422076423.16881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "+simpleForecastJSONTransformer"
             landmarkType = "5">
          </BreakpointContent>
@@ -649,6 +649,38 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "209"
             endingLineNumber = "209"
+            landmarkName = "-weatherReturnedCorrectly"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Models/MTxtForecast.m"
+            timestampString = "422077489.983681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "@implementation MTxtForecast"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatheriOS/ViewController.m"
+            timestampString = "422077628.771043"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "-weatherReturnedCorrectly"
             landmarkType = "5">
          </BreakpointContent>

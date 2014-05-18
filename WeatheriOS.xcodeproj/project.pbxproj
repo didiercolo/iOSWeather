@@ -30,6 +30,9 @@
 		4A50072B1920646E00F44EED /* MWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A50072A1920646E00F44EED /* MWeather.m */; };
 		4AB33D7E19230CCA001BC157 /* MCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB33D7D19230CCA001BC157 /* MCity.m */; };
 		4AB33D8119230DE7001BC157 /* MWeatherForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB33D8019230DE7001BC157 /* MWeatherForecast.m */; };
+		4AE0574F1928599000E8AA0E /* MTxtForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0574E1928599000E8AA0E /* MTxtForecast.m */; };
+		4AE0575219285B0B00E8AA0E /* MForecastTxtDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0575119285B0B00E8AA0E /* MForecastTxtDay.m */; };
+		4AE0575519285C2700E8AA0E /* MForecastDayDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0575419285C2700E8AA0E /* MForecastDayDetails.m */; };
 		4AF176E619278E56000D68D3 /* IconSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF176E519278E56000D68D3 /* IconSelector.m */; };
 		4AF176E919278E6C000D68D3 /* NSString+Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF176E819278E6C000D68D3 /* NSString+Substring.m */; };
 		4AF176EC19278F89000D68D3 /* Climacons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF176EB19278E89000D68D3 /* Climacons.ttf */; };
@@ -83,6 +86,12 @@
 		4AB33D7D19230CCA001BC157 /* MCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCity.m; path = ModelWeather/MCity.m; sourceTree = "<group>"; };
 		4AB33D7F19230DE7001BC157 /* MWeatherForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWeatherForecast.h; path = ModelWeather/MWeatherForecast.h; sourceTree = "<group>"; };
 		4AB33D8019230DE7001BC157 /* MWeatherForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWeatherForecast.m; path = ModelWeather/MWeatherForecast.m; sourceTree = "<group>"; };
+		4AE0574D1928599000E8AA0E /* MTxtForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTxtForecast.h; path = Models/MTxtForecast.h; sourceTree = "<group>"; };
+		4AE0574E1928599000E8AA0E /* MTxtForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTxtForecast.m; path = Models/MTxtForecast.m; sourceTree = "<group>"; };
+		4AE0575019285B0B00E8AA0E /* MForecastTxtDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MForecastTxtDay.h; path = Models/MForecastTxtDay.h; sourceTree = "<group>"; };
+		4AE0575119285B0B00E8AA0E /* MForecastTxtDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MForecastTxtDay.m; path = Models/MForecastTxtDay.m; sourceTree = "<group>"; };
+		4AE0575319285C2700E8AA0E /* MForecastDayDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MForecastDayDetails.h; path = Models/MForecastDayDetails.h; sourceTree = "<group>"; };
+		4AE0575419285C2700E8AA0E /* MForecastDayDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MForecastDayDetails.m; path = Models/MForecastDayDetails.m; sourceTree = "<group>"; };
 		4AF176E319278E56000D68D3 /* Climacons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Climacons.h; path = Models/Climacons.h; sourceTree = "<group>"; };
 		4AF176E419278E56000D68D3 /* IconSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconSelector.h; path = Models/IconSelector.h; sourceTree = "<group>"; };
 		4AF176E519278E56000D68D3 /* IconSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconSelector.m; path = Models/IconSelector.m; sourceTree = "<group>"; };
@@ -223,6 +232,12 @@
 				4A5007271920636D00F44EED /* Forecast.m */,
 				4A5007291920646E00F44EED /* MWeather.h */,
 				4A50072A1920646E00F44EED /* MWeather.m */,
+				4AE0574D1928599000E8AA0E /* MTxtForecast.h */,
+				4AE0574E1928599000E8AA0E /* MTxtForecast.m */,
+				4AE0575019285B0B00E8AA0E /* MForecastTxtDay.h */,
+				4AE0575119285B0B00E8AA0E /* MForecastTxtDay.m */,
+				4AE0575319285C2700E8AA0E /* MForecastDayDetails.h */,
+				4AE0575419285C2700E8AA0E /* MForecastDayDetails.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -396,11 +411,14 @@
 				4A35555C191DD5C50077CD9F /* ViewController.m in Sources */,
 				4A355583191DDD390077CD9F /* MForecastDay.m in Sources */,
 				4A5007281920636D00F44EED /* Forecast.m in Sources */,
+				4AE0575219285B0B00E8AA0E /* MForecastTxtDay.m in Sources */,
 				4A355556191DD5C50077CD9F /* AppDelegate.m in Sources */,
 				4A355552191DD5C50077CD9F /* main.m in Sources */,
 				4A50072B1920646E00F44EED /* MWeather.m in Sources */,
+				4AE0575519285C2700E8AA0E /* MForecastDayDetails.m in Sources */,
 				4A50072519205E7400F44EED /* MSimpleForecast.m in Sources */,
 				4AF176E619278E56000D68D3 /* IconSelector.m in Sources */,
+				4AE0574F1928599000E8AA0E /* MTxtForecast.m in Sources */,
 				4AF176EF1927FF65000D68D3 /* ForecastTableViewController.m in Sources */,
 				4AF176E919278E6C000D68D3 /* NSString+Substring.m in Sources */,
 			);

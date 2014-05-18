@@ -10,9 +10,11 @@
 #import "MTLJSONAdapter.h"
 #import <MTLModel.h>
 #import "MSimpleForecast.h"
+#import "MTxtForecast.h"
 
 @interface Forecast  : MTLModel<MTLJSONSerializing>
 
 @property  (strong,nonatomic) MSimpleForecast * simpleForecast;
+@property (strong,nonatomic) MTxtForecast * txtForecast;
 
 @end
