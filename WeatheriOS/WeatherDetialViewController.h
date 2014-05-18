@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *daySelectedDescription;
 
 @property (strong,nonatomic) MForecastDay *dayData;
+@property (strong,nonatomic) NSString *descriptiondata;
 
 @end

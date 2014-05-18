@@ -21,6 +21,7 @@
 
 @synthesize dayData =_dayData;
 @synthesize iconSelector=_iconSelector;
+@synthesize descriptiondata=_descriptiondata;
 
 -(IconSelector *)iconSelector{
     if(_iconSelector == nil)
@@ -51,6 +52,7 @@
     
     self.daySelectedIcon.text=  [self.iconSelector iconForCondition:self.dayData.icon];
     self.daySelected.text = self.dayData.WeatherDate.weekday;
+    self.daySelectedDescription.text = self.descriptiondata;
 }
 
 - (void)didReceiveMemoryWarning

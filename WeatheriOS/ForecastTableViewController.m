@@ -9,6 +9,7 @@
 #import "ForecastTableViewController.h"
 #import <AFNetworking/UIImageView+AFNetworking.h>
 #import "MForecastDay.h"
+#import "MForecastTxtDay.h"
 #import "WeatherDetialViewController.h"
 
 @interface ForecastTableViewController ()
@@ -93,9 +94,11 @@
     //MTweet * tweet =  [self.tweets.tweets objectAtIndex:indexPath.row];
     
     MForecastDay *selectedDayData=[self.weatherDataTableData.forecast.simpleForecast.forecastday objectAtIndex:indexPath.row];
+
     
     WeatherDetialViewController *dayDetailView = segue.destinationViewController;
     dayDetailView.dayData = selectedDayData;
+    dayDetailView.descriptiondata = [[self.weatherDataTableData.forecast.txtForecast.txtForecastDay objectAtIndex:indexPath.row] textDescription];
    
 }
 
