@@ -52,6 +52,12 @@
     return _iconSelector;
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+     [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    
+}
+
 
 - (void)viewDidLoad
 {
@@ -80,7 +86,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+   
     [super viewDidAppear:animated];
    
     [SVProgressHUD showWithStatus:@"Getting Weather"];
@@ -94,7 +100,7 @@
 
 -(void) initializateTodayWeatherIcon
 {
-    [self.todayWeatherIcon setFont:[UIFont  fontWithName:@"Climacons-Font" size:180]];
+    [self.todayWeatherIcon setFont:[UIFont  fontWithName:@"Climacons-Font" size:140]];
     [self.todayWeatherIcon setTextColor:[UIColor whiteColor]];
     [self.todayWeatherIcon setBackgroundColor:[UIColor clearColor]];
     [self.todayWeatherIcon setTextAlignment:NSTextAlignmentCenter];
@@ -102,7 +108,7 @@
 
 -(void) initializateTodayWeathertext
 {
-    [self.todayWeatherText setFont:[UIFont  fontWithName:ULTRALIGHT_FONT size:36]];
+    [self.todayWeatherText setFont:[UIFont  fontWithName:ULTRALIGHT_FONT size:26]];
     [self.todayWeatherText setTextColor:[UIColor whiteColor]];
     [self.todayWeatherText setBackgroundColor:[UIColor clearColor]];
     [self.todayWeatherText setTextAlignment:NSTextAlignmentCenter];
